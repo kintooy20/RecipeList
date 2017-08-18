@@ -1,0 +1,94 @@
+Gimenez1@ken MINGW64 ~/Desktop (master)
+$ cd /c/Users/Gimenez1/Desktop/Swoosh
+
+
+
+Gimenez1@ken MINGW64 ~/Desktop/Swoosh (master)
+$  git remote add swooshapp https://github.com/kintooy20/SwooshApp.git
+
+Gimenez1@ken MINGW64 ~/Desktop/Swoosh (master)
+$ git remote
+origin
+swooshapp
+
+Gimenez1@ken MINGW64 ~/Desktop/Swoosh (master)
+$  git add .
+warning: LF will be replaced by CRLF in .idea/compiler.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/gradle.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/runConfigurations.xml.
+The file will have its original line endings in your working directory.
+
+Gimenez1@ken MINGW64 ~/Desktop/Swoosh (master)
+$ git commit -m "first commit"
+[master (root-commit) ca1f048] first commit
+ 61 files changed, 1212 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/copyright/profiles_settings.xml
+ create mode 100644 .idea/gradle.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/runConfigurations.xml
+ create mode 100644 app/.gitignore
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/androidTest/java/kent/gimenez/com/swoosh/ExampleInstrumentedTest.java
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/kent/gimenez/com/swoosh/MainActivity.java
+ create mode 100644 app/src/main/java/kent/gimenez/com/swoosh/SecondActivity.java
+ create mode 100644 app/src/main/java/kent/gimenez/com/swoosh/ThirdActivity.java
+ create mode 100644 app/src/main/res/drawable-mdpi/beginner_baller_bg.png
+ create mode 100644 app/src/main/res/drawable-mdpi/desired_league_bg.png
+ create mode 100644 app/src/main/res/drawable-mdpi/drawable-hdpi/beginner_baller_bg.png
+ create mode 100644 app/src/main/res/drawable-mdpi/drawable-hdpi/desired_league_bg.png
+ create mode 100644 app/src/main/res/drawable-mdpi/drawable-hdpi/swoosh_logo.png
+ create mode 100644 app/src/main/res/drawable-mdpi/drawable-hdpi/welcome_screen_bg.png
+ create mode 100644 app/src/main/res/drawable-mdpi/swoosh_logo.png
+ create mode 100644 app/src/main/res/drawable-mdpi/welcome_screen_bg.png
+ create mode 100644 app/src/main/res/drawable-xhdpi/beginner_baller_bg.png
+ create mode 100644 app/src/main/res/drawable-xhdpi/desired_league_bg.png
+ create mode 100644 app/src/main/res/drawable-xhdpi/swoosh_logo.png
+ create mode 100644 app/src/main/res/drawable-xhdpi/welcome_screen_bg.png
+ create mode 100644 app/src/main/res/drawable-xxhdpi/beginner_baller_bg.png
+ create mode 100644 app/src/main/res/drawable-xxhdpi/desired_league_bg.png
+ create mode 100644 app/src/main/res/drawable-xxhdpi/swoosh_logo.png
+ create mode 100644 app/src/main/res/drawable-xxhdpi/welcome_screen_bg.png
+ create mode 100644 app/src/main/res/drawable-xxxhdpi/beginner_baller_bg.png
+ create mode 100644 app/src/main/res/drawable-xxxhdpi/desired_league_bg.png
+ create mode 100644 app/src/main/res/drawable-xxxhdpi/swoosh_logo.png
+ create mode 100644 app/src/main/res/drawable-xxxhdpi/welcome_screen_bg.png
+ create mode 100644 app/src/main/res/drawable/button_border.xml
+ create mode 100644 app/src/main/res/drawable/button_whenclicked.xml
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/layout/activity_second.xml
+ create mode 100644 app/src/main/res/layout/activity_third.xml
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/styles.xml
+ create mode 100644 app/src/test/java/kent/gimenez/com/swoosh/ExampleUnitTest.java
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+
+Gimenez1@ken MINGW64 ~/Desktop/Swoosh (master)
+$ git push -u swooshapp master
